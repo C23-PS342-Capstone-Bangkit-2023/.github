@@ -344,7 +344,7 @@ https://documenter.getpostman.com/view/27456873/2s93kz5QQq
 3. Camera to Capture Image
 
 #### Installation
-1. Download the APK Files [here](https://drive.google.com/file/d/1SW3ZoTAxfI5U5JCil79Q-abtueEp9P0C/view?usp=sharing).
+1. Download the APK Files [here](https://drive.google.com/file/d/1508BSha0LK1RfWCtldYRFmEY31QQz-Fl/view?usp=sharing).
 2. Install APK FIles (Allow permission install from Unknown Source).
 3. Grant permission for Camera
 
