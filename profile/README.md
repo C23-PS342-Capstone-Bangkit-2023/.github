@@ -339,7 +339,7 @@ https://documenter.getpostman.com/view/27456873/2s93kz5QQq
 
 ### Mobile Development
 #### Prerequisites
-1. Android 5.0 Lollipop (SDK 21) or above.
+1. Android 7.0 Nougat (SDK 24) or above.
 2. Internet Connection
 3. Camera to Capture Image
 
