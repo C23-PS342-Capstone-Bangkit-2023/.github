@@ -34,7 +34,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="assets/big-logo.png" alt="Logo" width="100">
+    <img src="https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/big-logo.png" alt="Logo" width="100">
   </a>
   
   <h2 align="center">Bangkit Capstone Project 2023: GiziGuru (Helps keep track of your nutrition)</h2>
@@ -46,7 +46,7 @@
   </p>
   
   <a href="#">
-    <img src="assets/logo.png" alt="Banner" width="1000">
+    <img src="https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/logo.png" alt="Banner" width="1000">
   </a>
 </p>
 <br/>
@@ -143,7 +143,7 @@ We collected food images from the internet to create our dataset. We utilized we
 ![Data train](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/data_train.jpeg?raw=true)
 
 * Data Validation<br><br>
-![Data validation]([assets/ML/data_validation.jpeg](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/data_validation.jpeg?raw=true))
+![Data validation](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/data_validation.jpeg)
 
 
 ##### Training
@@ -177,9 +177,9 @@ We saved the TensorBoard logs during training for future reference and compariso
 In the TensorBoard dashboard, we could access the following visualizations:
 
 - Scalar Charts: These charts displayed the trends of the loss and accuracy metrics over training epochs. We could analyze the convergence rate, identify potential overfitting or underfitting, and make informed decisions about model adjustments. Here is accuracy and loss of our model after 15 epochs:
-  - Accuracy chart :
-  ![Accuracy]([assets/ML/accuracy.png](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/accuracy.png?raw=true))
-  - Loss chart :
+  - Accuracy chart : <br>
+  ![Accuracy](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/accuracy.png)
+  - Loss chart : <br>
   ![Loss](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/loss.png?raw=true)
 
 
@@ -290,7 +290,7 @@ user_history_meals = {
 }
 ```
 - Output <br>
- ![Data train]([assets/ML/recommendation.png](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/recommendation.png?raw=true))
+ ![Data train](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/recommendation.jpeg)
 
 
 
