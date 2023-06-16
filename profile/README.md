@@ -103,8 +103,9 @@ The application will be as simple as possible so that even ordinary people can u
 * [Python Programming Language (Version 3)](https://www.python.org/)
 
 ### Library
-* [Express.Js](https://pandas.pydata.org/)
-* [Joi](https://pandas.pydata.org/)
+* [ExpressJS](https://expressjs.com//)
+* [Joi](https://joi.dev/)
+* [MomentJS](https://momentjs.com/)
 * [Pandas](https://pandas.pydata.org/)
 * [Sklearn](https://scikit-learn.org/stable/)
 * [Numpy](https://numpy.org/)
@@ -300,103 +301,39 @@ To deploy a model in a cloud environment, we typically save our model in a .pkl 
 
 
 ### Cloud Computing
+- We created 2 virtual machines for running this application. The first VM is for run the main program and the second VM is for running the machine learning model, on the vm that runs the main program, it is connected to the sql cloud via a private ip line in local dbms, and we configure cloud storage to hold image data and assets needed by the application then we deploy it into google cloud service.
+- With the technology below :
 1. Python 3.7
 2. Flask
 3. Numpy, Keras. TensorFlow, Pandas, (requirement.txt)
+4. NodeJS
+5. ExpressJS
+6. Joi
+7. MomentJS
 
 #### How to Run
-1. use virtualenv and run flask with python
-2. and goto "ip"/upload
+1. backend-primary
+- first, you have to clone this repository [backend-primary repository](https://github.com/C23-PS342-Capstone-Bangkit-2023/backend-primary.git)
+- then clone it into your server.
+- install Node Package Manager
+- running this command ["npm install"]
+- then configure your database linking in /utils
+- configure app.js with specified ip address and port
+- configure your reverse-proxy in /etc/nginx/sites-available/ 
+- turn your server on
+2. backend-secondary
+- first we have to install python3
+- then clone this repositorry [backend-secondary](https://github.com/C23-PS342-Capstone-Bangkit-2023/backend-secondary.git)
+- then install ["pip install -r requirements.txt"]
+- configure the main.py
+- start the python3 
 
 #### Endpoint
-http://104.197.16.252/
+http://34.124.159.170
 
-#### Upload
-<ul>
-  <li>URL
-    <ul>
-      <li><code>/upload</code></li>
-    </ul>
-  </li>
-  <li>Method
-    <ul>
-      <li>POST</li>
-    </ul>
-  </li>
-  <li>Headers
-    <ul>
-      <li>
-        <code>Content-Type</code> : <code>multipart/form-data</code>
-      </li>
-    </ul>
-  </li>
-  <li>Request Body
-    <ul>
-      <li>
-        <code>picture_path</code> as <code>file</code> 
-      </li>
-      <li>
-        <code>kind_model</code> as <code>string</code> 
-      </li>
-    </ul>
-  </li>
-  <li>Response</li>
-
-```
-{
-    "error": false,
-    "message": "success",
-}
-```
-
-</ul>
-
-#### Result
-<ul>
-  <li>URL
-    <ul>
-      <li><code>/result</code></li>
-    </ul>
-  </li>
-  <li>Method
-    <ul>
-      <li>GET</li>
-    </ul>
-  </li>
-  <li>Parameters
-    <ul>
-      <li>
-        <code>id</code> as <code>string</code>
-      </li>
-    </ul>
-  </li>
-  <li>Response</li>
-
-```
-{
-  "error": false, 
-  "id": "1654407149", 
-  "message": "success", 
-  "productList": [
-    {
-      "linkProduct": "https://www.tokopedia.com/synergypusat/elemence-vera-gel", 
-      "name": "Elemence Vera Gel", 
-      "photo": "/home/a7009f0996/Gambar/24_Wrinkles/1.png"
-    }
-  ], 
-  "rekomendationList": [
-    "Using aloe vera gel", 
-    "use vitamin C in the form of L-ascorbic acid", 
-    "Avoid sun exposure", 
-    "Use the right skin care products", 
-    "Use a serum that contains retinol", 
-    "Drinks that contain collagen"
-  ], 
-  "resultDetection": "Wrinkles"
-}
-```
-
-</ul>
+#### Documentation
+- for detail documentation please visit our Postman links below :
+https://documenter.getpostman.com/view/27456873/2s93kz5QQq
 
 <br/>
 
