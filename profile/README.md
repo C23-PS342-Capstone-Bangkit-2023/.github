@@ -34,7 +34,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/big-logo.png" alt="Logo" width="100">
+    <img src="https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/logo.png" alt="Logo" width="100">
   </a>
   
   <h2 align="center">Bangkit Capstone Project 2023: GiziGuru (Helps keep track of your nutrition)</h2>
