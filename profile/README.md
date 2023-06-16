@@ -106,6 +106,7 @@ The application will be as simple as possible so that even ordinary people can u
 * [Express.Js](https://pandas.pydata.org/)
 * [Joi](https://pandas.pydata.org/)
 * [Pandas](https://pandas.pydata.org/)
+* [Sklearn](https://scikit-learn.org/stable/)
 * [Numpy](https://numpy.org/)
 * [Tensorflow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
