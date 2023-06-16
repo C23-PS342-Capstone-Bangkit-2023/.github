@@ -140,7 +140,7 @@ By following this model architecture, we were able to utilize pre-trained Mobile
 ##### Dataset
 We collected food images from the internet to create our dataset. We utilized web scraping techniques to gather a diverse range of food images. Due to time limitations, we were able to collect a total of 9 different food categories, with 200 images for each category. To ensure proper evaluation and validation of our model, we split the dataset into training and validation sets. The training set consists of 90% of the data, while the remaining 10% is used for validation. Here is an example of our train dataset and validation dataset:
 * Data Train<br><br>
-![Data train](assets/ML/data_train.jpeg)
+![Data train](https://github.com/C23-PS342-Capstone-Bangkit-2023/.github/blob/main/profile/assets/ML/accuracy.png?raw=true)
 
 * Data Validation<br><br>
 ![Data validation](assets/ML/data_validation.jpeg)
