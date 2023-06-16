@@ -25,9 +25,13 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
 
 <!-- PROJECT LOGO -->
 <br/>
+
 <p align="center">
   <a href="#">
     <img src="assets/big-logo.png" alt="Logo" width="100">
@@ -135,10 +139,10 @@ By following this model architecture, we were able to utilize pre-trained Mobile
 ##### Dataset
 We collected food images from the internet to create our dataset. We utilized web scraping techniques to gather a diverse range of food images. Due to time limitations, we were able to collect a total of 9 different food categories, with 200 images for each category. To ensure proper evaluation and validation of our model, we split the dataset into training and validation sets. The training set consists of 90% of the data, while the remaining 10% is used for validation. Here is an example of our train dataset and validation dataset:
 * Data Train<br><br>
-![Data train](/assets/ML/data_train.jpeg)
+![Data train](assets/ML/data_train.jpeg)
 
 * Data Validation<br><br>
-![Data validation](/assets/ML/data_validation.jpeg)
+![Data validation](assets/ML/data_validation.jpeg)
 
 
 ##### Training
@@ -173,9 +177,9 @@ In the TensorBoard dashboard, we could access the following visualizations:
 
 - Scalar Charts: These charts displayed the trends of the loss and accuracy metrics over training epochs. We could analyze the convergence rate, identify potential overfitting or underfitting, and make informed decisions about model adjustments. Here is accuracy and loss of our model after 15 epochs:
   - Accuracy chart :
-  ![Data train](/assets/ML/accuracy.png)
+  ![Data train](assets/ML/accuracy.png)
   - Loss chart :
-  ![Data train](/assets/ML/loss.png)
+  ![Data train](assets/ML/loss.png)
 
 
 
@@ -197,12 +201,6 @@ for personalized food recommendations, we use the KNN (K-Nearest Neighbors) mode
 
 ##### Data Understanding
 Here is the information about the dataset we used <br>
-<style>
-  table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
 <table>
   <tr>
     <td>Source</td>
@@ -291,7 +289,7 @@ user_history_meals = {
 }
 ```
 - Output <br>
- ![Data train](/assets/ML/recommendation.png)
+ ![Data train](assets/ML/recommendation.png)
 
 
 
