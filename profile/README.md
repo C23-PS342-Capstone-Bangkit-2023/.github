@@ -46,7 +46,7 @@
   </p>
   
   <a href="#">
-    <img src="https://github.com/C23-PS342-Capstone-Bangkit-2023/Gizi_Guru_APP/tree/main/Design" alt="Banner" width="1000">
+    <img src="https://github.com/C23-PS342-Capstone-Bangkit-2023/Gizi_Guru_APP/tree/main/Design/Design.png" alt="Banner" width="1000">
   </a>
 </p>
 <br/>
